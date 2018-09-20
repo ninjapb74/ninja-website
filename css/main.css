@@ -1,0 +1,171 @@
+/** BASE STYLES **/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#about{
+   height: 700px;
+   margin: 0 auto;
+}
+#contact {
+  height: 800px;
+  margin: 0 auto;
+}
+
+#portfolio, #contact {
+  background-color: #1f202b;
+}
+
+h2 {
+  font-family: font-family: 'Source Sans Pro';
+  font-size: 36px;
+  color: #f70074;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+p {
+  font-size: 24px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+/**** HEADER SECTION ****/
+header {
+    height: 800px;
+    background: url('../img/hero-background.png') no-repeat 0px 100px;
+    background-color: #1f202b;
+}
+
+header h1 {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+#quote-heading {
+    font-family: 'Source Sans Pro', Semibold;
+    font-size: 72px;
+    color: #ffffff;
+    padding: 175px 0;
+}
+
+#quote-heading span{
+    color: #f70074;
+}
+
+nav {
+    float: right;
+    padding: 40px 0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;;
+    color: #ffffff;
+    padding-left: 80px;
+}
+
+
+/**** PORFOLIO SECTION ****/
+#portfolio {
+  height: 1500px;
+  margin: 0 auto;
+}
+
+.portfolio-project {
+  padding: 50px 0px;
+}
+
+#portfolio .full-width {
+  padding: 20px 0px;
+}
+
+#portfolio p {
+    color: #ffffff;
+}
+
+/**** ABOUT SECTION ****/
+#about {
+  overflow: auto;
+  background: url('../img/about-me.png');
+  background-size: cover;
+}
+
+#about .full-width {
+  padding: 30px 0;
+}
+
+#about p {
+    color: #1f202b;
+}
+
+#about-image {
+  padding: 30px 0px 0px 75px;
+}
+
+/**** CONTACT SECTION ****/
+#contact .full-width {
+  padding: 30px 0;
+}
+
+#contact h3 {
+  text-align: center;
+}
+
+#contact p {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+#contact-me {
+    text-decoration:none;
+    color:#ffffff;
+    font-size:24px;
+    padding-left: 50px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+   padding-left: 40px;
+}
+
+#contact #copyright {
+  padding:430px;
+  font-size: 18px;
+}
