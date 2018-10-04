@@ -43,6 +43,7 @@ p {
 .half-width {
     width: 600px;
     float: left;
+    margin 0 auto;
 }
 
 .third-width {
@@ -57,20 +58,23 @@ p {
 /**** HEADER SECTION ****/
 header {
     height: 800px;
-    background: url('../img/hero-background.png') no-repeat 0px 100px;
+    background: url('../img/mountains2.jpg') no-repeat;
     background-color: #1f202b;
+    background-position: 0px 100px;
+    background-size: cover;
 }
 
 header h1 {
     font-size: 30px;
     color: #ffffff;
-    padding: 30px 0;
+    text-align: left;
+    padding: 30px 0 0 0;
 }
 
 #quote-heading {
     font-family: 'Source Sans Pro', Semibold;
     font-size: 72px;
-    color: #ffffff;
+    color: #1f202b;
     padding: 175px 0;
 }
 
